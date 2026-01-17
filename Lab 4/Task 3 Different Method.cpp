@@ -9,8 +9,7 @@ bool loyal;
  cin >> balance;
  
  cout << "Account type:";
- balance < 100 ? cout << "Low Balance Account":
- (balance >= 100 && balance <= 500 ? cout << " Standard Account" : cout << "Premium Account");
+ balance < 100 ? cout << "Low Balance Account": (balance >= 100 && balance <= 500 ? cout << " Standard Account" : cout << "Premium Account");
  
  cout << " \nEnter 1 for loyal and 0 for not loyal: ";
  	cin >> loyal;
