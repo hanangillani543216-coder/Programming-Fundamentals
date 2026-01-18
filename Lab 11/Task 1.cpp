@@ -1,19 +1,12 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
 using namespace std;
-int main()
-{   double num;
-    cout << "Enter a number: ";
-    cin>> num;
 
-    cout << "Square root: " << sqrt(num) << endl;
-    cout << "Absolute value: " << abs(num) << endl;
-    cout << "Sine: " << sin(num) << endl;
-    cout << "Cosine: " << cos(num) << endl;
-    cout << "Power of 3: " << pow(num, 3) << endl;
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50};
 
+    cout << "Array elements are:\n";
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << " ";
+    }
     return 0;
 }
-
-	
-

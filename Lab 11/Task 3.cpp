@@ -1,15 +1,18 @@
 #include <iostream>
 using namespace std;
 
-void checkEvenOdd(int num) {
-    if (num % 2 == 0)
-        cout << num << " is Even" << endl;
-    else
-        cout << num << " is Odd" << endl;
-}
-
 int main() {
-    checkEvenOdd(33);
-    checkEvenOdd(14);
+    int arr[5] = {5, 10, 15, 20, 25};
+    int sum = 0;
+
+    for (int i = 0; i < 5; i++) {
+        sum += arr[i];
+    }
+
+    float average = sum / 5.0;
+
+    cout << "Sum = " << sum << endl;
+    cout << "Average = " << average << endl;
+
     return 0;
 }

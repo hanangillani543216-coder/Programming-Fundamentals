@@ -1,19 +1,12 @@
 #include <iostream>
 using namespace std;
 
-int factorial(int n) {
-    int fact = 1;
-    for (int i = 1; i <= n; i++) {
-        fact *= i;
-}
-    return fact;
-}
-
 int main() {
-    int num;
-    cout << "Enter a number: ";
-    cin>> num;
+    int arr[] = {2, 4, 6, 8, 10, 12};
 
-    cout << "Factorial of " << num << " is " << factorial(num) << endl;
+    int length = sizeof(arr) / sizeof(arr[0]);
+
+    cout << "Length of array = " << length << endl;
+
     return 0;
 }
